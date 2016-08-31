@@ -31,7 +31,7 @@ blastn -db DATABASE -query input_sequences/my_file -perc_identity n -out output_
 
 > I have added the perc_identity argument into this code as well, this will enable you to choose a minimum matching percent for the query vs the database. This comes in handy when you are looking at a highly variable sequence (ie: mexT).
 
-> The blast command is very customisable if you want to change it then just use.
+> The blast command is very customisable if you want to see what changes you can make then use.
 
 ```bash
 blastn -h
