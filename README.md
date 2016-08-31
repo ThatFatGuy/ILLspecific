@@ -42,7 +42,7 @@ blastn -help
 > For protein blasts (blastp) currently there is only the annotated proteins from pseudomonas.com called **AERUGINOSAprot** to perform a protein blast - 
 
 ```bash
-blastp -db AERUGINOSAprot -query input_files/my_protein.txt -out output_files//my_protein_out
+blastp -db AERUGINOSAprot -query input_files/my_protein.txt -out output_files/my_protein_out
 
 ```
 
