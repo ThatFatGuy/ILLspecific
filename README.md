@@ -50,7 +50,7 @@ blastp -db AERUGINOSAprot -query input_files/my_protein.txt -out output_files/my
 
 ```bash
 
-mview -in blast my_output_file -out fasta > my_output_file.fasta
+/usr/local/bin/mview-1.60.1/bin/mview -in blast my_output_file -out fasta > my_output_file.fasta
 
 ```
 
